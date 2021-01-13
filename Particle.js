@@ -23,7 +23,7 @@ class Particle{
         translate(pos.x,pos.y);
     //ROTATTING AT THE ANGLES//
         rotate(angle);
-        stroke("black");
+        stroke(this.color);
     //GIVING THE COLOURS//
         fill(this.color);
     //DEFINING THE MODE THE BODY//
