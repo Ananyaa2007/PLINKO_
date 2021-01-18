@@ -59,7 +59,7 @@ function draw() {
     particles.push(new Particle(random(width/2-20, width/2+30), 10,10));
   }
 
-  for (var j = 0; j < particles.length; j+3) {
+  for (var j = 0; j < particles.length; j++) {
       
     particles[j].display();
   }
